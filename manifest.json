@@ -1,0 +1,26 @@
+{
+	"manifest_version": 2,
+	"name": "척추의 목소리",
+	"version": "0.0.1",
+
+	"description": "척추를 펴도록 유도하는 확장앱입니다.",
+	"icons":  {
+		"64": "app/icons/test-64.png"
+	},
+	"default_locale": "ko",
+	
+	"sidebar_action": {
+		"default_page": "app/sidebar.html",
+		"default_icon": {
+			"64": "app/icons/test-64.png"
+		},
+		"default_title": "척추의 목소리 사이드바",
+		"use_navigation_bar": false
+	},
+
+	"background": {
+		"scripts": []
+	},
+	"content_scripts": [],
+	"permissions": []
+}
